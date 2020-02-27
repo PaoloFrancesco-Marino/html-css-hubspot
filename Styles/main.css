@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif ;
@@ -240,19 +239,19 @@ width: 50%;
   width: 35%;
   height: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 50px 0px 40px 0;
 
 }
 
 .crm-sx img {
-  height: 160px;
+  height: 120px;
   margin-bottom: 40px;
 }
 
 .crm-dx {
   width: 65%;
   height: 100%;
-  padding: 20px;
+  padding: 40px 40px 40px 0;
 }
 
 .crm-dx p {

@@ -1,3 +1,4 @@
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,10 @@ body {
 }
 
 /* utilities */
+.conteiner {
+  width: 1200px;
+  margin: auto;
+}
 
 .clearfix {
   content: '';
@@ -26,26 +31,38 @@ body {
   width: 50%;
 }
 
-.icona-globo::before {
+.height {
+  height: 80px;
+  line-height: 80px;
+}
+
+.align-dx {
+  text-align: right;
+}
+/* end utilities */
+
+/* Icon */
+
+.icon-globe::before {
   content: "\f0ac";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 20px;
-  margin-right: 20px;
+  padding: 0 20px 0 0;
   vertical-align: bottom;
 }
 
-.icona-arrow::after {
+.icon-arrow::after {
   content: "\f0d7";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 20px;
   color: #7c98b6;
-  margin: 0 15px;
+  padding: 0 15px;
   vertical-align: bottom;
 }
 
-.icona-search::before {
+.icon-search::before {
   content: "\f002";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -55,19 +72,32 @@ body {
   vertical-align: bottom;
 }
 
-/* Bottoni */
+.stile-lista li span::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 0 10px 0 0;
+  color: #ff7a59;
+}
+
+/* end icon */
+
+/* button */
 .btn {
   border-radius: 5px;
   text-decoration: none;
+  color: #fff;
 }
+
 .btn-login {
   color: #ff8668;
   border: 1px solid #ff8668;
   padding: 10px 25px;
   background: #fff;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
+/* login-hover */
 .btn-login:hover {
   background-color: #fff1ee;
 }
@@ -76,86 +106,94 @@ body {
   background: #ff7a59;
   border: none;
   padding: 10px 15px;
-  color: #fff;
+}
+/* btn-small:hover */
+.btn-small:hover {
+  color: #33475b;
 }
 
 .btn-large {
   background: #ff7a59;
   border: none;
   padding: 25px 30px;
-  color: #fff;
   font-weight: bold;
   font-size: 16px;
+}
+.btn-large:hover {
+  color: #33475b;
 }
 
 /* fine bottoni */
 
 /* header */
 
-.contenitore {
-  width: 60%;
-  margin: auto;
-}
-
-/* nav-bar */
-.nav-bar {
+/* fixed-bar */
+#fixed-bar {
   position: fixed;
   top: 0;
   width: 100%;
   background: #f5f8fa;
-  height: 80px;
-  line-height: 80px;
   border-bottom: 1px solid #ccc;
   font-weight: 600;
   z-index: 1;
 }
 
-#bordo {
+#border {
   border-left: 1px solid #cbd6e2;
   padding: 10px 20px;
 }
+/* end-fixed-bar */
 
-/* stile lista menu */
-.stile-lista {
+/* nav-menu */
+ #nav-menu {
+   margin-top: 80px;
+}
+
+#logo {
+  vertical-align: middle;
+}
+/* end-nav-menu */
+
+/* style-list */
+
+.list-style {
   list-style: none;
   padding: 0;
 }
 
-.stile-lista li {
+.list-style li {
   display: inline-block;
   text-align: right;
 }
 
-.stile-lista li a {
+.list-style li a {
   text-decoration: none;
-
 }
 
-.position-right {
-  text-align: right;
-}
- /* fine stile lista menu */
-
- /* menu bar */
-
- #logo {
-   vertical-align: middle;
- }
-
- .menu-bar {
-   height: 80px;
-   line-height: 80px;
-   margin-top: 80px;
- }
-
-.stile-menu li a {
+.list-style-menu li a {
   color: #33475b;
   font-size: 14px;
   font-weight: bold;
   padding: 0 0 0 15px;
 }
-/* jumbotrone */
-.background {
+
+.list-style li span {
+  padding: 0 10px 0 0;
+  font-size: 16px;
+}
+
+.list-style li span::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 0 10px 0 0;
+  color: #ff7a59;
+}
+
+ /* end-style-list */
+
+/* jumbotron */
+.jb-background {
   height: 600px;
   background-image: url('../img/jumbotron.png');
   background-position: 100% 13%;
@@ -163,14 +201,14 @@ body {
   background-color: #fff5ee;
 }
 
-.jumbotrone {
+.jumbotrone-ps {
   position: relative;
   height: 600px;
 }
 
 .jumbotrone-text {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 0;
   transform: translatey(-50%);
 }
@@ -185,62 +223,54 @@ body {
   margin-bottom: 40px;
 }
 
-.header-down {
+.jumbotrone-text p:last-child {
+  font-size: 16px;
+  margin-top: 40px;
+  max-width: 50%;
+}
+/* end-junbotron */
+
+/* divider */
+#divider {
   background-color: #afebe4;
   height: 80px;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
 }
-
  /* end header */
 
 
 /* main content */
-
-/* powerful-alone */
-.content-main {
+#bg-main {
   background: #f5f8fa;
 }
 
-.main-better {
+/* section-1 */
+
+.section-1-main {
   text-align: center;
   padding: 80px 0 50px;
 }
 
-.main-text {
-width: 50%;
-}
-
-.main-text img{
+.section-1-main img{
   width: 250px;
 }
 
-.main-text h1{
+.section-1-main h2{
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.main-text p {
+.section-1-main p {
   font-size: 18px;
   line-height: 30px;
 }
 
+/* end section-1 */
 
-/* CRM */
-
-.conteiner-style-hr {
-  background: #fff;
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: 5px 5px #eaf0f6;
-  margin-bottom: 2px;
-}
-
-.conteiner-style-hr:hover {
-  transform: scale(1.1);
-}
-
-.crm-sx {
+/* Section-2 */
+/* sx */
+.section-2-sx {
   width: 35%;
   height: 100%;
   text-align: center;
@@ -248,41 +278,58 @@ width: 50%;
 
 }
 
-.crm-sx img {
+.section-2-sx img {
   height: 120px;
   margin-bottom: 40px;
 }
-
-.crm-dx {
+/* dx */
+.section-2-dx {
   width: 65%;
   height: 100%;
   padding: 40px 40px 40px 0;
 }
 
-.crm-dx p {
+.section-2-dx p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-
-.text-popular span {
-  font-size: 18px;
+.section-2-dx h2 {
+  font-size: 24px;
   font-weight: bold;
 }
 
-.text {
+.section-2-dx h3 {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-2-dx h3::after {
+  content: '';
+  position: absolute;
+  margin-left: 10px;
+  border-bottom: 1px solid #ccc;
+  top: 14px;
+  width: 75%;
+}
+
+.section-2-dx ul {
   margin-top: 20px;
 }
 
-.stile-lista li span {
-padding: 0 10px 0 0;
-font-size: 16px;
+/* style contaier */
+.conteiner-style-hr {
+  background: #fff;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 0 10px #eaf0f6;
+  margin-bottom: 20px;
 }
 
-.stile-lista li span::before {
-  content: "\f058";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  padding: 0 10px 0 0;
-  color: #ff7a59;
+.conteiner-style-hr:hover {
+  transform: scale(1.1);
 }
+/* end contaier style */
+/* end-section-2 */

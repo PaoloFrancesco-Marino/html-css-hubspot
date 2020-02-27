@@ -154,10 +154,9 @@ body {
 .background {
   height: 600px;
   background-image: url('../img/jumbotron.png');
-  background-position: center;
+  background-position: 100% 13%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100% 100%;
+  background-color: #fff5ee;
 }
 
 .jumbotrone {
@@ -167,7 +166,7 @@ body {
 
 .jumbotrone-text {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 0;
   transform: translatey(-50%);
 }
@@ -182,7 +181,14 @@ body {
   margin-bottom: 40px;
 }
 
- /* fine header */
+.header-down {
+  background-color: #afebe4;
+  height: 80px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+ /* end header */
 
 
 /* main content */

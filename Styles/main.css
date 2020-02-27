@@ -32,7 +32,7 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 20px;
-  margin: 0 20px;
+  margin-right: 20px;
   vertical-align: bottom;
 }
 
@@ -42,7 +42,7 @@ body {
   font-weight: 900;
   font-size: 20px;
   color: #7c98b6;
-  margin: 0 20px;
+  margin: 0 15px;
   vertical-align: bottom;
 }
 
@@ -87,6 +87,7 @@ body {
   margin: auto;
 }
 
+/* nav-bar */
 .nav-bar {
   background: #f5f8fa;
   height: 80px;
@@ -120,3 +121,25 @@ body {
   text-align: right;
 }
  /* fine stile lista menu */
+
+ /* menu bar */
+
+ #logo {
+   vertical-align: middle;
+ }
+
+ .menu-bar {
+   height: 80px;
+   line-height: 80px;
+   background: #ccc;
+ }
+
+.stile-menu li a {
+  color: #33475b;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: -webkit-baseline-middle;
+}
+
+
+ /* fine header */

@@ -225,18 +225,60 @@ width: 50%;
 /* CRM */
 
 .conteiner-style-hr {
-  position: relative;
   background: #fff;
   height: 300px;
   border-radius: 10px;
   box-shadow: 5px 5px #eaf0f6;
-  padding: 20px;
   margin-bottom: 2px;
+}
+
+.conteiner-style-hr:hover {
+  transform: scale(1.1);
 }
 
 .crm-sx {
   width: 35%;
-  height: 260px;
-  background:#ccc;
+  height: 100%;
   text-align: center;
+  padding: 20px;
+
+}
+
+.crm-sx img {
+  height: 160px;
+  margin-bottom: 40px;
+}
+
+.crm-dx {
+  width: 65%;
+  height: 100%;
+  padding: 20px;
+}
+
+.crm-dx p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.text-popular span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.stile-lista li span {
+padding: 0 10px 0 0;
+font-size: 16px;
+}
+
+.stile-lista li span::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 0 10px 0 0;
+  color: #ff7a59;
 }

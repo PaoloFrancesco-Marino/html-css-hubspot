@@ -183,3 +183,35 @@ body {
 }
 
  /* fine header */
+
+
+/* main content */
+
+.content-main {
+  background: #f5f8fa;
+}
+
+.main-better {
+  text-align: center;
+  padding: 80px 0 50px;
+}
+
+.main-text {
+width: 50%;
+}
+
+.main-text img{
+  width: 250px;
+}
+
+.main-text h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.main-text p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* prodotti */

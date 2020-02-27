@@ -42,7 +42,7 @@ body {
   font-weight: 900;
   font-size: 20px;
   color: #7c98b6;
-  margin: 0 20px;
+  margin: 0 15px;
   vertical-align: bottom;
 }
 
@@ -61,7 +61,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
 }
-.login {
+.btn-login {
   color: #ff8668;
   border: 1px solid #ff8668;
   padding: 10px 25px;
@@ -69,18 +69,18 @@ body {
   margin-right: 10px;
 }
 
-.login:hover {
+.btn-login:hover {
   background-color: #fff1ee;
 }
 
-.small {
+.btn-small {
   background: #ff7a59;
   border: none;
   padding: 10px 15px;
   color: #fff;
 }
 
-.large {
+.btn-large {
   background: #ff7a59;
   border: none;
   padding: 25px 30px;
@@ -94,7 +94,7 @@ body {
 /* header */
 
 .contenitore {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -146,9 +146,9 @@ body {
 
 .stile-menu li a {
   color: #33475b;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 15px;
 }
 /* jumbotrone */
 .background {
@@ -193,6 +193,7 @@ body {
 
 /* main content */
 
+/* powerful-alone */
 .content-main {
   background: #f5f8fa;
 }
@@ -220,4 +221,22 @@ width: 50%;
   line-height: 30px;
 }
 
-/* prodotti */
+
+/* CRM */
+
+.conteiner-style-hr {
+  position: relative;
+  background: #fff;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #eaf0f6;
+  padding: 20px;
+  margin-bottom: 2px;
+}
+
+.crm-sx {
+  width: 35%;
+  height: 260px;
+  background:#ccc;
+  text-align: center;
+}

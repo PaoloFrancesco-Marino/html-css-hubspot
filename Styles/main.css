@@ -42,7 +42,7 @@ body {
   font-weight: 900;
   font-size: 20px;
   color: #7c98b6;
-  margin: 0 15px;
+  margin: 0 0 0 20px;
   vertical-align: bottom;
 }
 
@@ -59,12 +59,14 @@ body {
 /* Bottoni */
 .btn {
   border-radius: 5px;
+  text-decoration: none;
 }
 .login {
   color: #ff8668;
   border: 1px solid #ff8668;
   padding: 10px 25px;
   background: #fff;
+  margin-right: 10px;
 }
 
 .login:hover {
@@ -78,12 +80,21 @@ body {
   color: #fff;
 }
 
+.large {
+  background: #ff7a59;
+  border: none;
+  padding: 25px 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 /* fine bottoni */
 
 /* header */
 
 .contenitore {
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -114,7 +125,7 @@ body {
 
 .stile-lista li a {
   text-decoration: none;
-  margin: 10px;
+
 }
 
 .position-right {
@@ -131,15 +142,44 @@ body {
  .menu-bar {
    height: 80px;
    line-height: 80px;
-   background: #ccc;
  }
 
 .stile-menu li a {
   color: #33475b;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  vertical-align: -webkit-baseline-middle;
+  padding: 0 0 0 20px;
+}
+/* jumbotrone */
+.background {
+  height: 600px;
+  background-image: url('../img/jumbotron.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
 }
 
+.jumbotrone {
+  position: relative;
+  height: 600px;
+}
+
+.jumbotrone-text {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translatey(-50%);
+}
+
+.jumbotrone-text h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.jumbotrone-text p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
 
  /* fine header */

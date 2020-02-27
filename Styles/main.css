@@ -6,7 +6,7 @@
 
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif ;
   color: #33475b;
 }
@@ -27,20 +27,73 @@ body {
   width: 50%;
 }
 
-
 .icona-globo::before {
+  content: "\f0ac";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "\f0ac";
+  font-size: 20px;
   margin: 0 20px;
+  vertical-align: bottom;
 }
 
 .icona-arrow::after {
   content: "\f0d7";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  font-size: 20px;
   color: #7c98b6;
   margin: 0 20px;
+  vertical-align: bottom;
+}
+
+.icona-search::before {
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #00a4bd;
+  font-size: 20px;
+  margin: 0 20px;
+  vertical-align: bottom;
+}
+
+/* Bottoni */
+.btn {
+  border-radius: 5px;
+}
+.login {
+  color: #ff8668;
+  border: 1px solid #ff8668;
+  padding: 10px 25px;
+  background: #fff;
+}
+
+.login:hover {
+  background-color: #fff1ee;
+}
+
+.small {
+  background: #ff7a59;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+/* fine bottoni */
+
+/* header */
+
+.contenitore {
+  width: 60%;
+  margin: auto;
+}
+
+.nav-bar {
+  background: #f5f8fa;
+  height: 80px;
+  line-height: 80px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-weight: 600;
 }
 
 #bordo {
@@ -48,17 +101,23 @@ body {
   padding: 10px 20px;
 }
 
-
-
-/* header */
-
-.contenitore {
-  width: 80%;
-  margin: auto;
+/* stile lista menu */
+.stile-lista {
+  list-style: none;
+  padding: 0;
 }
 
-.nav-bar {
-  background: #f5f8fa;
-  height: 100px;
-  line-height: 100px;
+.stile-lista li {
+  display: inline-block;
+  text-align: right;
 }
+
+.stile-lista li a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.position-right {
+  text-align: right;
+}
+ /* fine stile lista menu */

@@ -570,6 +570,19 @@ ul {
  padding-top: 40px;
 }
 
-#footer {
- color: #fff;
+.footer-link {
+  color: #fff;
+}
+
+.footer-link h3{
+  padding-bottom: 20pX;
+}
+
+.footer-link ul li a {
+  color: #cbd6e2;
+  text-decoration: none;
+}
+
+.footer-link ul li {
+  padding: 10px 0;
 }

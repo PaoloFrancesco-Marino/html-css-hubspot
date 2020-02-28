@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 }
 
-.clearfix {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
@@ -538,7 +538,7 @@ ul {
 #bottom-customers {
   background-image: url('../img/woman.webp');
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 25%;
   background-position: 100% 0%;
 }
 
@@ -559,4 +559,17 @@ ul {
 .bottom-text p:last-child {
   padding-top: 40px;
   font-size: 12px;
+}
+
+/* end bottom customers */
+
+/* footer */
+#footer {
+ background: #33475b;
+ height: 700px;
+ padding-top: 40px;
+}
+
+#footer {
+ color: #fff;
 }

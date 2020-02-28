@@ -35,6 +35,10 @@ ul {
   width: 50%;
 }
 
+.w-25 {
+  width: 25%;
+}
+
 .height {
   height: 80px;
   line-height: 80px;
@@ -442,14 +446,38 @@ ul {
   height: 800px;
 }
 
-.comunity-main-text {
+.community-text {
   text-align: center;
   color: #fff;
 }
 
-.comunity-main-text h2 {
+.community-text h2 {
   margin: auto;
-  padding-top: 40px;
+  padding-top: 80px;
   font-size: 25px;
   max-width: 80%;
+}
+
+.community-text p {
+  padding-top: 30px;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+
+.community-text img {
+  padding-top: 20px;
+  height: 60px;
+  max-width: 100px;
+}
+
+
+.community-text h3 {
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.box-border {
+  padding: 20px;
+  border-bottom: 2px solid white;
 }

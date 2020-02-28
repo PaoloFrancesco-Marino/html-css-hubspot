@@ -575,7 +575,16 @@ ul {
 }
 
 .footer-link h3{
-  padding-bottom: 20pX;
+  padding-bottom: 20px;
+}
+
+.footer-link ul li {
+  padding: 10px 0;
+}
+
+.footer-link span {
+  display: inline-block;
+  padding: 10px 0;
 }
 
 .footer-link ul li a {
@@ -583,6 +592,11 @@ ul {
   text-decoration: none;
 }
 
-.footer-link ul li {
-  padding: 10px 0;
+.footer-link ul li a:hover {
+  color: #7fd1de;
+}
+
+.footer-link ul li a {
+  color: #cbd6e2;
+  text-decoration: none;
 }

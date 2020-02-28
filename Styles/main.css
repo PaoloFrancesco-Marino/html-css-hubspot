@@ -101,6 +101,8 @@ ul {
   color: #ff7a59;
 }
 
+/* icone socal */
+
 /* end icon */
 
 /* button */
@@ -155,6 +157,19 @@ ul {
 
 .btn-large:hover {
   color: #33475b;
+}
+
+.btn-white {
+  background: #fff;
+  color: #33475b;
+  border: none;
+  font-weight: bold;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.btn-white:hover {
+  color: #ff7a59;
 }
 
 /* fine bottoni */
@@ -584,7 +599,7 @@ ul {
 
 .footer-link span {
   display: inline-block;
-  padding: 10px 0;
+  padding: 10px 0 20px;
 }
 
 .footer-link ul li a {
@@ -599,4 +614,17 @@ ul {
 .footer-link ul li a {
   color: #cbd6e2;
   text-decoration: none;
+}
+/* footer icone social */
+.footer-social ul li {
+  display: inline-block;
+}
+
+.footer-social ul li a {
+  font-size: 25px;
+  padding: 0 15px 0 0px;
+}
+
+.footer-social ul li a:hover {
+  color: #ff7a59;
 }

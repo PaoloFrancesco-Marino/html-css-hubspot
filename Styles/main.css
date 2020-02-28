@@ -39,6 +39,14 @@ ul {
   width: 25%;
 }
 
+.w-35 {
+  width: 35%
+}
+
+.w-65 {
+  width: 65%;
+}
+
 .height {
   height: 80px;
   line-height: 80px;
@@ -47,6 +55,11 @@ ul {
 .align-dx {
   text-align: right;
 }
+
+.align-cn {
+  text-align: center;
+}
+
 /* end utilities */
 
 /* Icon */
@@ -478,6 +491,72 @@ ul {
 }
 
 .box-border {
-  padding: 20px;
-  border-bottom: 2px solid white;
+  border-right: 1px solid white;
+}
+
+.box-border-bt{
+  border-bottom: 1px solid white;
+}
+
+/* end community main */
+
+/* customers */
+
+#customers {
+  height: 700px;
+  background: #f5f8fa;
+  padding-top: 40px;
+}
+
+/* top customers */
+
+
+.top-customers {
+  padding-bottom: 40px;
+}
+
+.top-customers h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.top-customers p {
+  font-size: 16px;
+  max-width: 50%;
+}
+
+.w-65 img {
+  max-width: 20%;
+  height: auto;
+  vertical-align: middle;
+  padding: 10px 10px;
+}
+/* end top customers */
+
+/* bottom customers */
+
+#bottom-customers {
+  background-image: url('../img/woman.webp');
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 100% 0%;
+}
+
+.bottom-text {
+  padding-top: 40px;
+}
+
+.bottom-text h2 {
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+
+.bottom-text p {
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+.bottom-text p:last-child {
+  padding-top: 40px;
+  font-size: 12px;
 }

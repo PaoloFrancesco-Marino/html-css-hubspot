@@ -137,7 +137,7 @@ ul {
 .btn-middle {
   background: #ff7a59;
   border: none;
-  font-weight: bold;
+  font-weight: 700;
   padding: 10px 20px;
   font-size: 16px;
 }
@@ -151,7 +151,7 @@ ul {
   background: #ff7a59;
   border: none;
   padding: 25px 30px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
 }
 
@@ -163,8 +163,8 @@ ul {
   background: #fff;
   color: #33475b;
   border: none;
-  font-weight: bold;
-  padding: 10px 10px;
+  font-weight: 700;
+  padding: 10px;
   font-size: 14px;
 }
 
@@ -189,7 +189,7 @@ ul {
 
 #fixed-bar .btn {
   line-height: 40px;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 #border {
@@ -227,7 +227,7 @@ ul {
 .list-style-menu li a {
   color: #33475b;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   padding: 0 0 0 15px;
 }
 
@@ -328,7 +328,7 @@ ul {
   width: 35%;
   height: 100%;
   text-align: center;
-  padding: 50px 0px 40px 0;
+  padding: 50px 0 40px 0;
 
 }
 
@@ -506,11 +506,11 @@ ul {
 }
 
 .box-border {
-  border-right: 1px solid white;
+  border-right: 1px solid #fff;
 }
 
 .box-border-bt{
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
 }
 
 /* end community main */
@@ -548,7 +548,7 @@ ul {
   max-width: 20%;
   height: auto;
   vertical-align: middle;
-  padding: 10px 10px;
+  padding: 10px;
 }
 /* end top customers */
 
@@ -558,7 +558,7 @@ ul {
   background-image: url('../img/woman.webp');
   background-repeat: no-repeat;
   background-size: 25%;
-  background-position: 100% 0%;
+  background-position: 100% 0;
 }
 
 .bottom-text {
@@ -628,7 +628,7 @@ ul {
 
 .footer-social ul li a {
   font-size: 25px;
-  padding: 0 15px 0 0px;
+  padding: 0 15px 0 0;
 }
 
 .footer-social ul li a:hover {
@@ -675,7 +675,7 @@ ul {
   text-decoration: none;
   color: #cbd6e2;
   font-size: 18px;
-  padding: 0px 0 0px 20px;
+  padding: 0px 0 0 20px;
 }
 
 .bottom-footer li a:hover {

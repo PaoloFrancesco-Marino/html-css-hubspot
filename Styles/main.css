@@ -542,10 +542,8 @@ ul {
 
 .top-customers {
   padding-bottom: 40px;
-}
-
-.top-customers-text {
-  padding-left: 40px;
+  width: 90%;
+  margin: auto;
 }
 
 .top-customers h2 {

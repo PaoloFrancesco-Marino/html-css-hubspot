@@ -523,11 +523,11 @@ ul {
   max-width: 100px;
 }
 
-.box-border {
+.border-right {
   border-right: 1px solid #fff;
 }
 
-.box-border-bt{
+.border-bottom {
   border-bottom: 1px solid #fff;
 }
 

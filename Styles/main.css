@@ -101,9 +101,7 @@ ul {
   color: #ff7a59;
 }
 
-/* icone socal */
-
-/* end icon */
+/* end Icon */
 
 /* button */
 .btn {
@@ -172,7 +170,7 @@ ul {
   color: #ff7a59;
 }
 
-/* fine bottoni */
+/* end button */
 
 /* header */
 
@@ -229,6 +227,10 @@ ul {
   font-size: 14px;
   font-weight: 700;
   padding: 0 0 0 15px;
+}
+
+.list-style-menu li:nth-child(2) {
+  padding-right: 15px;
 }
 
 .list-style li span {
@@ -348,12 +350,12 @@ ul {
   margin-bottom: 20px;
 }
 
-.info-center-dx h2 {
+.info-center-dx h3 {
   font-size: 24px;
   font-weight: bold;
 }
 
-.info-center-dx h3 {
+.info-center-dx h4 {
   position: relative;
   font-size: 20px;
   font-weight: bold;
@@ -385,7 +387,8 @@ ul {
   height: 150px;
 }
 
-.column-3 h2 {
+.column-3 h4 {
+  font-size: 20px;
   margin: 20px 0;
 }
 
@@ -394,7 +397,8 @@ ul {
   margin: 20px auto 50px;
 }
 
-.column-3 h3 {
+.column-3 h5 {
+  font-size: 16px;
   padding: 10px 0;
 }
 
@@ -488,8 +492,8 @@ ul {
 .community-text h2 {
   margin: auto;
   padding-top: 80px;
-  font-size: 25px;
-  max-width: 80%;
+  font-size: 30px;
+  max-width: 90%;
 }
 
 .column-box {
@@ -501,7 +505,7 @@ ul {
   color: #fff;
 }
 
-.text-column h3 {
+.text-column h2 {
   padding-top: 20px;
   font-size: 40px;
 }
@@ -578,7 +582,7 @@ ul {
 }
 
 .bottom-text h2 {
-  font-size: 25px;
+  font-size: 28px;
   padding-bottom: 40px;
 }
 
@@ -607,7 +611,8 @@ ul {
   color: #fff;
 }
 
-.footer-link h3{
+.footer-link h5 {
+  font-size: 16px;
   padding-bottom: 20px;
 }
 

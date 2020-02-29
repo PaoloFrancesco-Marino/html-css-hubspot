@@ -362,12 +362,12 @@ ul {
   margin-bottom: 30px;
 }
 
-.info-center-dx h3::after {
+.info-center-dx h4::after {
   content: '';
   position: absolute;
   margin-left: 10px;
   border-bottom: 1px solid #ccc;
-  top: 14px;
+  top: 15px;
   width: 75%;
 }
 

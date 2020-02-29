@@ -36,7 +36,7 @@ ul {
 }
 
 .w-25 {
-  width: 25%;
+  width: calc(100% /4);
 }
 
 .w-35 {
@@ -479,6 +479,12 @@ ul {
   color: #fff;
 }
 
+.community-text p {
+  padding-top: 30px;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
 .community-text h2 {
   margin: auto;
   padding-top: 80px;
@@ -486,23 +492,31 @@ ul {
   max-width: 80%;
 }
 
-.community-text p {
+.column-box {
+  padding-top: 40px;
+}
+
+.text-column {
+  text-align: center;
+  color: #fff;
+}
+
+.text-column h3 {
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.text-column p {
   padding-top: 30px;
   font-size: 16px;
   padding-bottom: 30px;
 }
 
 
-.community-text img {
+.text-column img {
   padding-top: 20px;
   height: 60px;
   max-width: 100px;
-}
-
-
-.community-text h3 {
-  padding-top: 20px;
-  font-size: 40px;
 }
 
 .box-border {

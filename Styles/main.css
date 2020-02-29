@@ -257,29 +257,29 @@ ul {
   background-color: #fff5ee;
 }
 
-.jumbotrone-ps {
+.jumbotron-ps {
   position: relative;
   height: 600px;
 }
 
-.jumbotrone-text {
+.jumbotron-text {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translatey(-50%);
 }
 
-.jumbotrone-text h1 {
+.jumbotron-text h1 {
   font-size: 60px;
   margin-bottom: 20px;
 }
 
-.jumbotrone-text p {
+.jumbotron-text p {
   font-size: 20px;
   margin-bottom: 40px;
 }
 
-.jumbotrone-text p:last-child {
+.jumbotron-text p:last-child {
   font-size: 16px;
   margin-top: 20px;
   max-width: 50%;

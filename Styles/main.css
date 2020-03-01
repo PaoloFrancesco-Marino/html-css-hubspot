@@ -11,7 +11,7 @@ body {
   color: #33475b;
 }
 
-/* utilities */
+/* Utilities */
 .conteiner {
   width: 1200px;
   margin: 0 auto;
@@ -59,11 +59,9 @@ ul {
 .align-cn {
   text-align: center;
 }
-
 /* end utilities */
 
 /* Icon */
-
 .icon-globe::before {
   content: "\f0ac";
   font-family: "Font Awesome 5 Free";
@@ -100,10 +98,9 @@ ul {
   padding: 0 10px 0 0;
   color: #ff7a59;
 }
-
 /* end Icon */
 
-/* button */
+/* Button */
 .btn {
   display: inline-block;
   border-radius: 5px;
@@ -118,7 +115,6 @@ ul {
   margin-right: 20px;
 }
 
-/* login-hover */
 .btn-login:hover {
   background-color: #fff1ee;
 }
@@ -127,7 +123,7 @@ ul {
   background: #ff7a59;
   border: none;
 }
-/* btn-small:hover */
+
 .btn-small:hover {
   color: #33475b;
 }
@@ -140,7 +136,6 @@ ul {
   font-size: 16px;
 }
 
-/* btn-middle:hover */
 .btn-middle:hover {
   color: #33475b;
 }
@@ -170,11 +165,9 @@ ul {
   color: #ff7a59;
 }
 
-/* end button */
+/* end Button */
 
-/* header */
-
-/* fixed-bar */
+/* Header */
 #fixed-bar {
   position: fixed;
   top: 0;
@@ -194,9 +187,8 @@ ul {
   border-left: 1px solid #cbd6e2;
   padding: 10px 20px;
 }
-/* end-fixed-bar */
 
-/* nav-menu */
+/* Nav menu */
  #nav-menu {
    margin-top: 80px;
 }
@@ -204,10 +196,8 @@ ul {
 #logo {
   vertical-align: middle;
 }
-/* end-nav-menu */
 
 /* style-list */
-
 .list-style {
   list-style: none;
   padding: 0;
@@ -245,8 +235,7 @@ ul {
   padding: 0 10px 0 0;
   color: #ff7a59;
 }
-
- /* end-style-list */
+/* end-style-list */
 
 /* jumbotron */
 .jb-background {
@@ -293,8 +282,7 @@ ul {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
 }
- /* end header */
-
+/* end header */
 
 /* main content */
 #info-main {
@@ -321,11 +309,9 @@ ul {
   font-size: 18px;
   line-height: 30px;
 }
-
 /* end info-top */
 
 /* info-center */
-/* sx */
 .info-center-sx {
   width: 35%;
   height: 100%;
@@ -338,7 +324,7 @@ ul {
   height: 120px;
   margin-bottom: 40px;
 }
-/* dx */
+
 .info-center-dx {
   width: 65%;
   height: 100%;
@@ -374,7 +360,6 @@ ul {
 .info-center-dx ul {
   margin-top: 20px;
 }
-
 /* end-info center */
 
 /* info bottom */
@@ -438,6 +423,7 @@ ul {
   padding-right: 16px;
 }
 
+/* info bottom */
 .info-bottom-cn {
   padding: 0 16px;
 }
@@ -448,7 +434,7 @@ ul {
 
 /* end info bottom */
 
-/* style contaier-vrt */
+/* style contaier */
 
 .conteiner-style {
   background: #fff;
@@ -478,6 +464,7 @@ ul {
   height: 800px;
 }
 
+/* coomunity main top */
 .community-text {
   text-align: center;
   color: #fff;
@@ -496,6 +483,7 @@ ul {
   max-width: 90%;
 }
 
+/* community main Column */
 .column-box {
   padding-top: 40px;
 }
@@ -516,7 +504,6 @@ ul {
   padding-bottom: 30px;
 }
 
-
 .text-column img {
   padding-top: 20px;
   height: 60px;
@@ -530,11 +517,9 @@ ul {
 .border-bottom {
   border-bottom: 1px solid #fff;
 }
-
 /* end community main */
 
-/* customers */
-
+/* Customers */
 #customers {
   height: 700px;
   background: #f5f8fa;
@@ -542,8 +527,6 @@ ul {
 }
 
 /* top customers */
-
-
 .top-customers {
   padding-bottom: 40px;
   width: 90%;
@@ -566,10 +549,8 @@ ul {
   vertical-align: middle;
   padding: 10px;
 }
-/* end top customers */
 
 /* bottom customers */
-
 #bottom-customers {
   background-image: url('../img/woman.webp');
   background-repeat: no-repeat;
@@ -596,16 +577,26 @@ ul {
   font-size: 12px;
 }
 
-/* end bottom customers */
-
-/* footer */
+/* Footer */
 #footer {
  background: #33475b;
  height: 600px;
  padding-top: 40px;
 }
-
 /* footer link */
+
+/* utilities footer */
+.footer-social ul li,
+.footer-languages li,
+.bottom-footer li {
+display:inline-block;
+}
+
+.bottom-footer li a:hover,
+.footer-languages li a:hover{
+  color: #7fd1de;
+}
+/* end utilities footer */
 
 .footer-link {
   color: #fff;
@@ -638,10 +629,8 @@ ul {
   color: #cbd6e2;
   text-decoration: none;
 }
+
 /* footer icone social */
-.footer-social ul li {
-  display: inline-block;
-}
 
 .footer-social ul li a {
   font-size: 25px;
@@ -651,19 +640,13 @@ ul {
 .footer-social ul li a:hover {
   color: #ff7a59;
 }
-
 /* end footer link */
 
 /* footer language nav */
-
 .footer-languages {
   text-align: center;
   padding: 40px 0 20px;
   border-bottom: 2px solid #cbd6e2;
-}
-
-.footer-languages li {
-  display: inline-block;
 }
 
 .footer-languages li a {
@@ -673,19 +656,10 @@ ul {
   padding: 0 20px;
 }
 
-.footer-languages li a:hover{
-  color: #7fd1de;
-}
-
 /* bottom-footer */
-
 .bottom-footer {
   color: #cbd6e2;
   padding-top: 40px;
-}
-
-.bottom-footer li {
-  display: inline-block;
 }
 
 .bottom-footer li a {
@@ -694,7 +668,4 @@ ul {
   font-size: 18px;
   padding: 0px 0 0 20px;
 }
-
-.bottom-footer li a:hover {
-  color: #7fd1de;
-}
+/* end Footer */

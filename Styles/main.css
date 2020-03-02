@@ -124,20 +124,12 @@ ul {
   border: none;
 }
 
-.btn-small:hover {
-  color: #33475b;
-}
-
 .btn-middle {
   background: #ff7a59;
   border: none;
   font-weight: 700;
   padding: 10px 20px;
   font-size: 16px;
-}
-
-.btn-middle:hover {
-  color: #33475b;
 }
 
 .btn-large {
@@ -148,8 +140,10 @@ ul {
   font-size: 16px;
 }
 
+.btn-small:hover,
+.btn-middle:hover,
 .btn-large:hover {
-  color: #33475b;
+  opacity: 0.5;
 }
 
 .btn-white {
